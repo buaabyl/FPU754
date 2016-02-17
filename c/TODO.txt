@@ -1,0 +1,5 @@
+In IEEE754 standard, at last stage add 1 after shift to 1.xxxx,
+if result overflow then need one more normalization.
+
+But this implement not have this function cause of speed.
+
